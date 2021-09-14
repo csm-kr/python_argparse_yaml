@@ -1,0 +1,11 @@
+training_parameter:
+  decay_step :
+    - 30
+    - 60
+    - 90
+  epoch: 10
+  data_root: 'D:\data\coco'
+  lr: 1e-2
+  batch_size: 256
+  momentum: 0.9
+  weight_decay: 5e-4
